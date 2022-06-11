@@ -7,3 +7,12 @@
   color: black;
   text-align: center;
 }
+
+
+.card{
+  /* other base style */
+  position: absolute;
+ 
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

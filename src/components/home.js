@@ -34,7 +34,8 @@ async  function OnClickHandler() {
     return (
 
 
-    <div className='container'>
+   
+      <div className='container'>
     <h1  style={{textAlign:'center',width:'100%'}}>Enter CountryName for Details</h1>
       <div className="d-flex" method='post'  >
    <input className="form-control me-3"  name='textfield' id='textfield' type="search" placeholder="Search for Country" aria-label="Search"/>
@@ -42,8 +43,8 @@ async  function OnClickHandler() {
       </div>
 
      
-  {   Finaldata && Finaldata.length>0 && <div className='align-items-cente' style={{marginTop:'25px'}}>
-      <div className="card h-100 d-flex align-items-center justify-content-center" style={{marginLeft:'35%',width: '20rem'}}>
+  {   Finaldata && Finaldata.length>0 && <div class="flex-container" style={{marginTop:'500px'}}>
+      <div className="card" style={{width: '20rem'}}>
          <img  src={Finaldata[0].flags.png} style={{height:'325px',width:'318px'}} className="card-img-top" alt="flagimg"/>
          <div className="card-body">
          <ul className="list-group list-group-flush">
@@ -66,6 +67,7 @@ async  function OnClickHandler() {
       </div>
      </div> }
    </div>
+    
 
 
      
