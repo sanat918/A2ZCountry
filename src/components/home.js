@@ -43,7 +43,7 @@ async  function OnClickHandler() {
       </div>
 
      
-  {   Finaldata && Finaldata.length>0 && <div class="flex-container" style={{marginTop:'500px'}}>
+  {   Finaldata && Finaldata.length>0 && <div class="flex-container" style={{marginTop:'515px'}}>
       <div className="card" style={{width: '20rem'}}>
          <img  src={Finaldata[0].flags.png} style={{height:'325px',width:'318px'}} className="card-img-top" alt="flagimg"/>
          <div className="card-body">
